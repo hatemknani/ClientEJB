@@ -13,7 +13,7 @@ public class ClientRemote {
 	public static void main(String[] args) {
 		try {
 			Context ctx = new InitialContext();
-			String appName = "";
+			String appName = "BankEAR";
 			String moduleName = "BankEJB";
 			String beanName = "BK";
 			//String remoteInterface = "un.bank.BankRemote";
